@@ -1,0 +1,180 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, letter]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Override color
+
+\colorlet{awesome}{awesome-darknight}
+
+\usepackage{import}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{}{Roberto Castaldeli}
+%\address{Rua Vinicius de Morais, 209, Alta Floresta, Mato Grosso - 78580000}
+\mobile{(66) 9-9953-7667} 
+%%% Social
+\email{castaldelliroberto@gmail.com}
+\github{bobcastaldeli}
+\linkedin{robertocastaldeli}
+\skype{castaldelliroberto\_1}
+%%% Optionals
+\position{Analista de Dados{\enskip\cdotp\enskip}Cientista de Dados jr}
+%\quote{Buscando um emprego para 2020, onde minhas habilidades e educação serão usadas para criar produtos inovadores e lucrativos}
+\vspace{5mm}
+
+
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+{}%\today}
+{}
+{}%\thepage}
+
+\begin{document}
+	%%% Make a header for CV with personal data
+	\makecvheader
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-1mm}
+\cvsection{Educação}
+\vspace{-3mm}
+\begin{cventries}
+	\cventry
+	{Bacharel em Ciências Econômicas}
+	{Universidade do Estado de Mato Grosso\vspace{-2mm}}
+	{Sinop, Mato Grosso\vspace{-2mm}}
+	{Concluído - Jan 2018}
+	{
+		\begin{cvitems}
+			\vspace{-2mm}
+			\item {Extra Curricular: Monitor Microeconomia II\vspace{-2mm}}
+		\end{cvitems}
+	}
+\end{cventries}
+
+\vspace{-3mm}
+\cvsubsection{\textbf{Cursos e Especializações}}
+\vspace{-2mm}
+\begin{cventries}
+	\cventry
+	{Formação Análise Estatística para Data Science}
+	{\vspace{3mm}Data Science Academy\vspace{-5mm}}
+	{\vspace{3mm}Sinop, Mato Grosso\vspace{-5mm}}
+	{Previsão - Jul 2020}
+	{
+		\begin{cvitems}
+			\vspace{-2mm}
+			\item {Cursos Realizados: Matemática Para Machine Learning, Análise Estatística I, Análise de Estatística II\vspace{-2mm}}
+		\end{cvitems}
+	}
+	\cventry
+	{Machine Learning}
+	{\vspace{3mm}University of Washington - Coursera\vspace{-5mm}}
+	{\vspace{3mm}Sinop, Mato Grosso\vspace{-5mm}}
+	{Previsão - Jul 2020}
+	{
+		\begin{cvitems}
+			\vspace{-1mm}
+			\item {Cursos Realizados:Machine Learning Foundation, Machine Learning: Regression, Machine Learning: Classification, Machine Learning: Clustering \& Retrieval\vspace{-2mm}}
+		\end{cvitems}
+	}
+	\cventry
+	{Applied Data Science with Python}
+	{\vspace{3mm}University of Michigan - Coursera\vspace{-5mm}}
+	{\vspace{3mm}Sinop, Mato Grosso\vspace{-5mm}}
+	{Concluído - Fev 2020}
+	{
+		\begin{cvitems}
+			\vspace{-1mm}
+			\item {Cursos Realizados: Introduction to Data Science, Applied Plotting \& Data Representation , Applied Machine Learning, Applied Text Mining, Applied Social Network Analysis\vspace{-2mm}}
+		\end{cvitems}
+	}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-5mm}
+\cvsection{Experiência}
+\vspace{-3mm}
+\begin{cventries}
+	\cventry
+	{Inteligência Fiscal e Tributária - IFCT}
+	{Operacional\vspace{-2mm}}
+	{Sinop, Mato Grosso\vspace{-2mm}}
+	{Março 2017 - Novembro 2017}
+	{
+		\begin{cvitems}
+			\item {Auditoria fiscal e tributária em produtos para recuperação de impostos.}
+			\item {Análise de dados de demonstrativos contábeis.}
+			\item {Realização de rotinas operacionais de otimização tributária.}
+			\item{Atuação com relacionamento com clientes e suporte comercial.\vspace{-2mm}}
+		\end{cvitems}
+	}
+	\cventry
+	{Centro de Informações Socioeconômicas - CISE (UNEMAT/CDL)}
+	{Pesquisador Estagiário\vspace{-2mm}}
+	{Sinop, Mato Grosso\vspace{-2mm}}
+	{Abril 2014 - Março 2016}
+	{
+		\begin{cvitems}
+			\item {Construção e manutenção de indicadores socioeconômicos.}
+			\item {Elaboração e realização de pesquisas de mercado referentes aos indicadores socioeconômicos.}
+			\item {Armazenamento, análise, tratamento e gestão de dados econômicos relacionados a pesquisa.}
+			\item {Criação de relatórios e visualizações dinâmicas para apresentações dos resultados dos indicadores econômicos.\vspace{-2mm}}
+		\end{cvitems}
+	}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-5mm}
+\cvsection{Habilidades}
+\vspace{-3mm}
+\begin{cventries}
+	\vspace{-2mm}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+				Linguagens de Programação:  & {\skill{ Python, R, SQL}} \\
+				Bancos de Dados:  & {\skill{ MySQL, SQLServer, PostgreeSQL}} \\
+				Big Data Tools:  & {\skill{ Apache Spark, Pyspark, Google BigQuery, Microsoft Azure Machine Learning}} \\
+				Data Science Tools:  & {\skill{ Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, XGBoost, LightGBM, Tidyverse, Caret}} \\
+				Business Intelligence Tools:  & {\skill{ Microsoft Power BI, QlikView, Google Data Studio}} \\
+				Aprendizado de Máquina:  & {\skill{ Mineração de Dados, Regressão, Classificação, Clusterização, Series Temporais}} \\
+	\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-14mm}
+\cvsection{Projetos}
+\vspace{-2mm}
+\begin{cventries}
+  \cventry
+    {\url{htpps://github.com/Castaldeli/Credit-Risk-Analysis}}
+    {Análise de Risco de Crédito\vspace{1mm}}
+    {Python, Pandas, Seaborn, Scikit-Learn, Yellowbrick\vspace{-4mm}}
+	{\vspace{1mm}}
+	{Classificação de risco de crédito dos clientes de um banco, utilizando o algoritmo de classificação Floresta Aleátoria e o otimizando para que tem um melhor desempenho e possa ser usado em análises de riscos posteriores.}
+
+  \cventry
+    {\url{https://github.com/bobcastaldeli/Custumer-Churn-Prediction}}
+	{Previsão de Taxa de Cancelamento da Telco Systems\vspace{1mm}}
+	{Python, Pandas, Seaborn, Scikit-Learn, LightGBM, Scikit-Optmize,  Shap, Yellowbrick\vspace{-4mm}}
+	{\vspace{1mm}}
+	{Para este projeto foram empregadas técnincas de mineração de dados, para poder compreender o perfil do consumidor e com base nisso realizar um previsão sobre o possível cancelamento dos serviços pela empresa oferecidos por parte dos clintes.}
+	
+\end{cventries}
+
+\end{document}
